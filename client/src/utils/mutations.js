@@ -8,7 +8,6 @@ export const ADD_USER = gql`
         _id
         bookCount
         email
-        password
         savedBooks {
           authors
           bookId
@@ -31,7 +30,6 @@ export const LOGIN = gql`
         _id
         bookCount
         email
-        password
         savedBooks {
           title
           link
@@ -52,7 +50,6 @@ export const REMOVE_BOOK = gql`
       _id
       bookCount
       email
-      password
       savedBooks {
         authors
         bookId
@@ -82,7 +79,6 @@ export const SAVE_BOOK = gql`
       _id
       bookCount
       email
-      password
       savedBooks {
         authors
         bookId
